@@ -45,7 +45,7 @@ class ManageSongFragment : Fragment() {
         val nextButton = view.findViewById<ImageButton>(R.id.nextButton)
         val prevButton = view.findViewById<ImageButton>(R.id.prevButton)
 
-        // PLAY
+        // ▶ PLAY
         playButton.setOnClickListener {
             mediaPlayer?.let {
                 if (!it.isPlaying) {
@@ -55,7 +55,7 @@ class ManageSongFragment : Fragment() {
             }
         }
 
-        // PAUSE
+        // ⏸ PAUSE
         pauseButton.setOnClickListener {
             mediaPlayer?.let {
                 if (it.isPlaying) {
@@ -65,7 +65,7 @@ class ManageSongFragment : Fragment() {
             }
         }
 
-        // STOP
+        // ⏹ STOP
         stopButton.setOnClickListener {
             mediaPlayer?.let {
                 if (it.isPlaying) it.stop()
@@ -74,12 +74,12 @@ class ManageSongFragment : Fragment() {
             }
         }
 
-        // NEXT
+        // ⏭ NEXT
         nextButton.setOnClickListener {
             listener?.onNextRequested()
         }
 
-        // PREVIOUS
+        // ⏮ PREVIOUS
         prevButton.setOnClickListener {
             listener?.onPreviousRequested()
         }
@@ -87,7 +87,7 @@ class ManageSongFragment : Fragment() {
         return view
     }
 
-    // PLAY SONG
+    // 🎵 PLAY SONG
     fun playSong(title: String, url: String) {
 
         // release old player safely
