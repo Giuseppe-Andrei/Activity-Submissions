@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.Exercise2_musicplayer"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <!-- App theme -->
+    <style name="Theme.Exercise2_musicplayer"
+        parent="Base.Theme.Exercise2_musicplayer" />
+
+</resources>

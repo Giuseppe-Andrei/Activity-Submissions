@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:padding="20dp"
+
+    android:background="#F5F5F5">
+
+    <TextView
+
+        android:text="My Favorite Songs"
+
+        android:textSize="22sp"
+
+        android:textStyle="bold"
+
+        android:layout_marginBottom="16dp"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+
+        android:text="🎵 Project Hail Mary Audiobook"
+
+        android:textSize="18sp"
+
+        android:layout_marginBottom="8dp"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+
+        android:text="🎵 A Sky Full of Stars - Coldplay"
+
+        android:textSize="18sp"
+
+        android:layout_marginBottom="8dp"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+
+        android:text="🎵 Counting Stars - OneRepublic"
+
+        android:textSize="18sp"
+
+        android:layout_marginBottom="8dp"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+
+        android:text="🎵 Fix You - Coldplay"
+
+        android:textSize="18sp"
+
+        android:layout_marginBottom="8dp"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+
+        android:text="🎵 Hall of Fame - The Script"
+
+        android:textSize="18sp"
+
+        android:layout_marginBottom="8dp"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
