@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile"
+        app:tint="#1DB954"
+        />
+
+    <item
+        android:id="@+id/nav_now_playing"
+        android:title="Now Playing"
+        android:icon="@drawable/ic_now_playing"
+        app:tint="#1DB954"
+        />
+
+</menu>

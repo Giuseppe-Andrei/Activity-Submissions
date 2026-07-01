@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">exercise-4_music-player</string>
+    <string name="my_song_text">My Songs</string>
+    <string name="select_a_song_text">Select a Song</string>
+    <string name="prev_text">Prev</string>
+    <string name="next_text">Next</string>
+    <string name="play_text">Play</string>
+    <string name="pause_text">Pause</string>
+    <string name="stop_text">Stop</string>
+
+
+    <string name="now_playing">Now Playing</string>
+    <string name="profile">Profile</string>
+    <string name="my_music">My Music</string>
+    <string name="favorites">Favorites</string>
+
+    <string name="profile_full_name">Full Name: STYLUS KARL T. DIGDIGAN</string>
+    <string name="profile_course">Course: BSIT</string>
+    <string name="profile_section">Section: 3-B</string>
+    <string name="profile_hobbies">Hobbies: Listening to music, gaming, watching movies, basketball</string>
+    <string name="profile_title">Profile</string>
+
+    <string name ="music_player_title">Music Player</string>
+    <string name ="music_player_subtitle">Navigation Exercise"</string>
+
+</resources>
